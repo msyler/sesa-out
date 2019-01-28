@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-section {
+    background-image: url(../images/fondo1.jpg);
+    height: 1926px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.second-section {
+    color: white;
+}
+
+.background-second-section1 {
+    background-image: url(../images/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-second-section2 {
+    background-image: url(../images/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-photo1 {
+    background-image: url(../images/foto2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.background-photo2 {
+    background-image: url(../images/foto3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.background-third-left {
+    background-color: #ba1c18;
+    color: white;
+}
+
+.fourth-section {
+    background-color: #292b30;
+    color: white;
+}

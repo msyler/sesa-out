@@ -48,3 +48,23 @@ body {
     background-color: #292b30;
     color: white;
 }
+
+.carousel {
+    background-image: url(../images/fondo2.jpg);
+    color: white;
+}
+
+.item {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.item img {
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    background-color: #ba1c18;
+    color: white;
+}

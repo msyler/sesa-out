@@ -68,6 +68,81 @@ body {
     font-size: 16px;
 }
 
+.second-section .full-text {
+    padding-left: 100px;
+    padding-right: 130px;
+}
+
+.second-section .full-text h4 {
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.second-section .full-text ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.second-section .full-text li {
+    font-size: 16px;
+}
+
+.third-section .row {
+    height: 300px;
+}
+
+.third-section .left-container {
+    overflow: auto;
+    width: 473px;
+    float: right;
+    margin-right: -15px;
+    margin-top: 56px;
+    padding-top: 40px;
+    border-top: 1px solid white;
+}
+
+.third-section .right-container {
+    overflow: auto;
+    width: 500px;
+    float: left;
+    margin-left: -15px;
+    margin-top: 56px;
+    padding-top: 40px;
+    border-top: 1px solid black;
+    padding-left: 40px;
+}
+
+.third-section .logo {
+    float: left;
+    margin-top: -20px;
+}
+
+.third-section .left-container .text {
+    float: right;
+    width: 230px;
+}
+
+.third-section .left-container .text h4 {
+    font-size: 35px;
+}
+
+.third-section .right-container .text {
+    float: left;
+}
+
+.third-section .left-container .text h4 {
+    font-size: 30px;
+}
+
+.third-section .right-container .text .high {
+    font-size: 40px;
+    color: #db1e22;
+}
+
+
+
+
 .background-second-section1 {
     background-image: url(../images/fondo2.jpg);
     background-size: cover;
@@ -108,14 +183,41 @@ body {
     color: white;
 }
 
+.carousel-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-container h4 {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.carousel-container .high {
+    color:#ba1c18;
+}
+
+.separator-carousel {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
 .item {
-    border: 1px solid red;
-    text-align: center;
+    text-align: left;
+}
+
+.item .desc {
+    margin-left: 75px;
 }
 
 .item img {
     display: block;
     margin: auto;
+    height: 200px;
 }
 
 .footer {
@@ -131,4 +233,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.arrow {
+    
 }

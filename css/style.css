@@ -1,17 +1,71 @@
 body {
     font-family: 'Poppins', sans-serif;
+} 
+
+.centered-image {
+    display: block;
+    margin: auto;
 }
 
 .first-section {
     background-image: url(../images/fondo1.jpg);
-    height: 1926px;
+    height: 1330px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center -320px;
+}
+
+.navbar {
+    margin-top: 65px;
+    width: 100%;
+}
+
+.text-and-video {
+    margin-top: 70px;
+}
+
+.big-text {
+    width: 656px; padding-left: 15px;
+    color: white;
+}
+
+.first-section h1 {
+    color: #db1e22;
+    font-size: 75px;
+}
+
+.first-section h2 {
+    font-size: 40px;
+}
+
+.first-section h3 {
+    font-size:20px;
 }
 
 .second-section {
     color: white;
+}
+
+.second-section .text-and-photo {
+    margin-top: 50px
+}
+
+.second-section .solution-text {
+    margin-top: 50px;
+    margin-left: -25px;
+}
+
+.second-section .solution-text h4 {
+    font-size: 28px;
+}
+
+.second-section .solution-text ul {
+    padding-left: 20px;
+}
+
+.second-section .solution-text li {
+    margin-top: 30px;
+    font-size: 16px;
 }
 
 .background-second-section1 {
@@ -67,4 +121,14 @@ body {
 .footer {
     background-color: #ba1c18;
     color: white;
+}
+
+.separator {
+    width: 70%;
+    height: 1px;
+    background-color: white;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

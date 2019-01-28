@@ -235,6 +235,26 @@ body {
     margin-right: auto;
 }
 
-.arrow {
-    
+.slick-prev {
+    background-image: url(../images/arrow.png)!important;
+    background-repeat: no-repeat!important;
+    width: 23px !important;
+    height: 35px !important;
+    top: 90% !important;
+}
+
+.slick-prev:before {
+    content: none !important;
+}
+
+.slick-next {
+    background-image: url(../images/arrow-right.png)!important;
+    background-repeat: no-repeat!important;
+    width: 23px !important;
+    height: 35px !important;
+    top: 90% !important;
+}
+
+.slick-next:before {
+    content: none !important;
 }

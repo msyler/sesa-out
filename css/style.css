@@ -186,9 +186,12 @@ body {
     margin-right: auto;
 }
 
-.fourth-section .box .border-top{
+.fourth-section .box .border-top {
     border-top: 1px solid white;
-    padding-top: 60px;
+}
+
+.fourth-section .box .border-top>div {
+    padding-top: 40px;
 }
 
 .fourth-section .box h3 {
@@ -199,6 +202,16 @@ body {
 
 .fourth-section .box span.high {
     color: #ba1c18 !important;
+}
+
+.fourth-section .box .vertical-border-top {
+    border-right: 1px solid white;
+    margin-top: 100px;
+}
+
+.fourth-section .box .vertical-border-bottom {
+    border-right: 1px solid white;
+    margin-bottom: 100px;
 }
 
 .carousel {

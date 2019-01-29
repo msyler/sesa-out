@@ -295,6 +295,11 @@ body {
     content: none !important;
 }
 
+.header-title{
+    margin-left: 16%;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
 /* form starting stylings ------------------------------- */
 .group 			  { 
     position:relative; 
@@ -311,6 +316,10 @@ body {
   input:focus 		{ outline:none; }
   
   /* LABEL ======================================= */
+.columna-1 label {
+    color: #db2828;
+}
+
   label 				 {
     color:#999; 
     font-size:18px;
@@ -366,7 +375,22 @@ body {
     pointer-events:none;
     opacity:0.5;
   }
+
+  button {
+    background: #ae1919;
+    color: white;
+    border: none;
+    width: 45%;
+    float: right;
+    margin-right: 7rem;
+    height: 40px;
+  }
   
+  .obligatorio {
+    color: #ae1919;
+    font-size: 12px;
+
+  }
   /* active state */
   input:focus ~ .highlight {
     -webkit-animation:inputHighlighter 0.3s ease;
@@ -386,6 +410,24 @@ body {
   @keyframes inputHighlighter {
       from { background:#ba1c18; }
     to 	{ width:0; background:transparent; }
+  }
+
+  textarea {
+	display: block;
+	width: 73%;
+	border: 0;
+	padding: 10px 5px;
+    background: white no-repeat;
+	background-image: linear-gradient(to bottom, #ba1c18, #ba1c18), linear-gradient(to bottom, silver, silver);
+	background-size: 0 2px, 100% 1px;
+	background-position: 50% 100%, 50% 100%;
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+textarea:focus{
+    /* sizes for the 2 images (focus state) */
+      background-size: 100% 2px, 100% 1px;
+      outline: none;
   }
 
 .footer-container {

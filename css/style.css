@@ -272,3 +272,28 @@ body {
     background-color: white;
     margin-top: 60px;
 }
+
+.fifth-left {
+    padding-left: 0px;
+}
+
+.fifth-left img {
+    width: 100%;
+}
+
+.fifth-right-container {
+    margin-top: 40%;
+    border-left: 1px solid;
+    padding: 0 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-right-container img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.fifth-right-text span {
+    display: block;
+}

@@ -191,7 +191,7 @@ body {
 }
 
 .fourth-section .box .border-top>div {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .fourth-section .box h3 {
@@ -206,12 +206,12 @@ body {
 
 .fourth-section .box .vertical-border-top {
     border-right: 1px solid white;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .fourth-section .box .vertical-border-bottom {
     border-right: 1px solid white;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .carousel {

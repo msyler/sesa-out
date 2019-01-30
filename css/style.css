@@ -443,17 +443,21 @@ textarea:focus{
     background-color: white;
     margin-top: 60px;
 }
-<<<<<<< HEAD
+
+.fifth-section {
+    background: #ebebeb;
+}
 
 .fifth-left {
     padding-left: 0px;
 }
 
 .fifth-left img {
-    width: 100%;
+    width: 800px;
 }
 
 .fifth-right-container {
+    margin-left: -70px;
     margin-top: 40%;
     border-left: 1px solid;
     padding: 0 0 30px 30px;
@@ -462,12 +466,14 @@ textarea:focus{
 }
 
 .fifth-right-container img {
-    width: 60px;
+    width: 85px;
     margin-bottom: 10px;
+}
+
+.fifth-right-text {
+    font-size: 20px;
 }
 
 .fifth-right-text span {
     display: block;
 }
-=======
->>>>>>> master

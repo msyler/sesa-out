@@ -2,6 +2,18 @@ body {
     font-family: 'Poppins', sans-serif;
 } 
 
+.poppins-200 {
+    font-weight: 200!important;
+}
+
+.poppins-300 {
+    font-weight: 300!important;
+}
+
+.poppins-400 {
+    font-weight: 400!important;
+}
+
 .centered-image {
     display: block;
     margin: auto;
@@ -140,6 +152,11 @@ body {
     color: #db1e22;
 }
 
+.third-section .right-container .text .high-low {
+    font-size: 30px;
+    color: #db1e22;
+}
+
 
 
 
@@ -271,6 +288,12 @@ body {
     margin-right: auto;
 }
 
+.separator-contact {
+    border-top: 1px solid black;
+    width: 75%;
+    margin: 60px auto 0 auto;
+}
+
 .slick-prev {
     background-image: url(../images/arrow.png)!important;
     background-repeat: no-repeat!important;
@@ -289,6 +312,7 @@ body {
     width: 23px !important;
     height: 35px !important;
     top: 90% !important;
+    right: -90px !important;
 }
 
 .slick-next:before {
@@ -297,7 +321,7 @@ body {
 
 .header-title{
     margin-left: 16%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 /* form starting stylings ------------------------------- */
